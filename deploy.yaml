@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: website
-        image: nginx:latest
+        image: ibsearchtrack/new-img:latest
         ports:
         - containerPort: 80
